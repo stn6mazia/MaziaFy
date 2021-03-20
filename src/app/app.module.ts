@@ -4,6 +4,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
+import { MaziafyMainModule } from './maziafy-main/maziafy-main.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    MaziafyMainModule
   ],
   providers: [],
   bootstrap: [AppComponent]

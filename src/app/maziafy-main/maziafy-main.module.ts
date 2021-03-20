@@ -6,6 +6,11 @@ import { MaziafyMainComponent } from './maziafy-main.component';
   imports: [
     CommonModule
   ],
-  declarations: [MaziafyMainComponent]
+  declarations: [
+    MaziafyMainComponent
+  ],
+  exports: [
+    MaziafyMainComponent
+  ]
 })
 export class MaziafyMainModule { }
